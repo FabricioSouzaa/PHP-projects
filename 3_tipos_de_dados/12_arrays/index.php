@@ -18,4 +18,4 @@
   echo "<br>";
   print_r($b);
   echo "<br>";
-  print_r($b[1]);
+  print_r($b[1]); //teste
