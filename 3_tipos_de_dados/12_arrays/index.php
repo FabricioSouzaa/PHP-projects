@@ -13,7 +13,7 @@
   echo "<br>";
   print_r($arr[0]);
 
-  $b = ["Fabrício EDM", 4142, true];
+  $b = ["Fabrício EDM", 4142, true, "Fabrício Souza GIT"];
 
   echo "<br>";
   print_r($b);
