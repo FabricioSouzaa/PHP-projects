@@ -1,12 +1,13 @@
 <?php
 
-  $arr = ['nome' => 'Shark', 'patas' => 4, 'cor' => 'Marrom'];
+  $arr = ['name' => 'Fabrício', 'age' => 24, 'favcolor' => 'black'];
 
-  echo $arr['nome'];
+  echo $arr['name'];
   echo "<br>";
   print_r($arr);
   echo "<br>";
-  echo $arr['patas'];
+  echo $arr['favcolor'];
+  // Associative array
 
   $arrAssoc = ['chave' => 'valor', 'bool' => true];
 
