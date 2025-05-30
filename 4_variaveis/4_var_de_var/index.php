@@ -4,6 +4,6 @@
 
   echo "$x <br>";
 
-  $$x = "Matheus"; // var com o nome de x (nome), com valor de Matheus
+  $$x = "Fabrício"; // var com o nome de x (nome), com valor de Fabrício
 
   echo "$nome <br>";
