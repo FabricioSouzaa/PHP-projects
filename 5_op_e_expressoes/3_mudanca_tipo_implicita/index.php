@@ -14,8 +14,8 @@
     echo "É string <br>";
   }
 
-  $nome = "Matheus";
-  $sobrenome = "Battisti";
+  $nome = "Fabrício";
+  $sobrenome = "Souza";
 
   $nomeCompleto = $nome . " " . $sobrenome;
 

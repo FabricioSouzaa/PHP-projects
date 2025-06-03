@@ -11,3 +11,5 @@
   echo gettype(12.2);
   echo "<br>";
   echo gettype("teste");
+
+  // aprofundando o conhecimento em gettype
