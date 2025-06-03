@@ -2,7 +2,7 @@
 
   echo 3 + 2 * 5;
   echo "<br>";
-  echo (3 + 2) * 5;
+  echo (3 + 2) * 5; // segue o padrão matemático de resolver primeiro os parênteses
   echo "<br>";
   echo 5 + 2 / 10;
   echo "<br>";
