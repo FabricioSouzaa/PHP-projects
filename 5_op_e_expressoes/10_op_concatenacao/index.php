@@ -16,3 +16,9 @@
   echo "O carro da " . $marca . " tem um motor " . $motor . " e chega uma velocidade de " . $vel_max . "km/h";
 
   echo "<br>";
+
+  $nome = "Fabrício";
+  $profissao = "Investimentos";
+
+  echo "Me chamo " . $nome . " e trabalho com " . $profissao;
+  echo "<br>";

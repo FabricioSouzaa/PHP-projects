@@ -7,7 +7,7 @@
 
   echo 13 % 2;
   echo "<br>";
-  echo 13 % 5;
+  echo 21 % 5;
   echo "<br>";
 
   $a = 20;
