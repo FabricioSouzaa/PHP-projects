@@ -4,7 +4,8 @@
 if (15 > 5 && 'Joao' === 'Joao') {
   echo "Entrou no if 1 <br>"; // true e true
 }
-if ('teste' > 5 && 1) {
+
+if ((int)"teste" > 5 && 1) {
   echo "Entrou no if 2 <br>";
 }
 
