@@ -1,42 +1,30 @@
 <?php
 
-  if(5 > 10 && 10 > 5) { // false e true
+if (5 > 10 && 10 > 5) { // false e true
     echo "Entrou no if 1 <br>";
-  }
+}
 
-  if(50 > 10 && 10 > 5) { // true e true
-    echo "Entrou no if 2 <br>";
-  }
+if (50 > 10 && 10 > 9) {
+    echo "Entrou no if 2 <br>"; // true e true
+}
 
-  if(50 > 10 && 10 > 500) { // true e false
-    echo "Entrou no if 3 <br>";
-  }
+$a = 10;
+$b = 5;
+$c = 12;
+$d = 15;
 
-  if(50 > 100 && 10 > 500) { // false e false
-    echo "Entrou no if 4 <br>";
-  }
+if ($a > $b && $c <= $d) {
+    echo "Entrou no if 3 <br>"; // true e false
+}
 
-  $a = 10;
-  $b = 5;
-  $c = 12;
-  $d = 12;
+if ($b <= $a && $d >= $c) {
+    echo "Entrou no if 4 <br>"; // true e true
+}
 
-  if($a > $b && $c == $d) {
-    echo "Entrou no if 5 <br>";
-  }
+if ($a === $b && $c !== $d) {
+    echo "Entrou no if 5 <br>"; // false e true
+}
 
-  if($b <= $a && $c >= $d) {
-    echo "Entrou no if 6 <br>";
-  }
-
-  if($b === $a && $c > $d) {
-    echo "Entrou no if 7 <br>";
-  }
-
-  if(($b <= $a && $c >= $d) && $a > $b) {
-    echo "Entrou no if 8 <br>";
-  }
-
-  if($b <= $a && $c >= $d && $c === $a) {
-    echo "Entrou no if 9 <br>";
-  }
+if ($b !== $a && $c !== $d) {
+    echo "Entrou no if 6 <br>"; // true e true
+}
