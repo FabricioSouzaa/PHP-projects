@@ -1,34 +1,30 @@
 <?php
 
-  if(5 > 2 || 3 < 4) { // true e true
-    echo "A operação 1 é verdadeira <br>";
-  }
+if (5 > 2 || 2 < 4) {
+    echo "A expressão 1 é verdadeira <br>";
+}
 
-  if(5 > 2 || 30 < 4) { // true e false
-    echo "A operação 2 é verdadeira <br>";
-  }
+if (5 > 2 || 5 < 4) {
+    echo "A expressão 2 é verdadeira <br>";
+}
 
-  if(5 > 20 || 3 < 4) { // false e true
-    echo "A operação 3 é verdadeira <br>";
-  }
+if (5 > 4 || 2 < 4) {
+    echo "A expressão 3 é verdadeira <br>";
+}
 
-  if(5 > 20 || 30 < 4) { // false e false
-    echo "A operação 4 é verdadeira <br>";
-  }
+if (5 > 6 || 2 < 1) {
+    echo "A expressão 4 é verdadeira <br>";
+}
 
-  $a = 10;
-  $b = 20;
-  $c = 30;
-  $d = 40;
+$a = 10;
+$b = 15;
+$c = 25;
+$d = 35;
 
-  if($a > $b || $d > $c) { // false e true
-    echo "A operação 5 é verdadeira <br>";
-  }
+if ($a < $b || $d > $c) {
+  echo "A expressão 5 é verdadeira <br>";
+}
 
-  if(($a > $b || $d > $c) && $c < $d) {
-    echo "A operação 6 é verdadeira <br>";
-  }
-
-  if(($a > $b && $d < $c) || $c < $d) {
-    echo "A operação 7 é verdadeira <br>";
-  }
+if (($a < $b || $d > $c) && $c < $d) {
+  echo "A expressão 6 é verdadeira <br>"; // A expressão 6 é verdadeira porque a primeira parte é verdadeira e a segunda parte também
+}
