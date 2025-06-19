@@ -1,39 +1,17 @@
 <?php
 
-  // +=
-  $a = 0;
-  $a += 10; // $a = $a + 10
+$a = 0;
+$a += 10; // Atribuição com adição
+echo $a . "<br>";
 
-  echo $a . "<br>";
+$b = 20;
+$b -= 5; // Atribuição com subtração
+echo $b . "<br>";
 
-  // -=
-  $b = 0;
-  $b -= 5; // $b = $b - 5
+$c = 10;
+$c *= 4; // Atribuição com multiplicação
+echo $c . "<br>";
 
-  echo $b . "<br>";
-
-  // *=
-  $c = 5;
-  $c *= 2; // $c = $c * 2
-
-  echo $c . "<br>";
-
-  // /=
-  $d = 5;
-  $d /= 2; // $d = $d / 2
-
-  echo $d . "<br>";
-
-  // %=
-  $e = 5;
-  $e %= 2; // $e = $e % 2
-
-  echo $e . "<br>";
-
-  // utilizacao com variaveis
-  $f = 10;
-  $x = 20;
-
-  $f += $x; // $f = $f + $x
-
-  echo $f . "<br>";
+$d = 100;
+$d /= 4; // Atribuição com divisão
+echo $d . "<br>";

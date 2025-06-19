@@ -1,28 +1,31 @@
 <?php
 
-  $a = (int) "12";
+$a = (int) "12";
 
-  echo $a;
-  echo "<br>";
-  echo $a + 10;
-  echo "<br>";
+echo $a;
+echo "<br>";
+echo $a + 10;
+echo "<br>";
 
-  if($a === 12) {
-    echo "A é idêntico a 12 <br>";
-  }
+if ($a === 12) {
+  echo "A é identico a 12 <br>";
+}
 
-  $b = (float) "3.14843824";
+if ($a === "12") {
+  echo "A é identico a 12 <br>";
+}
 
-  if($b === 3.14843824) {
-    echo "B é idêntico a 3.14 <br>";
-  }
+$b = (float) "10.5";
 
+echo $b;
+echo "<br>";
+echo $b + 10;
+echo "<br>";
 
-  $c = (string) 34;
+if ($b === "10.5") {
+  echo "B é identico a 10.5 em string <br>";
+}
 
-  echo $c;
-  echo "<br>";
-
-  if($c === "34") {
-    echo "C é idêntico a 34 <br>";
-  }
+if ($b === 10.5) {
+  echo "B é identico a 10.5 <br>";
+}
