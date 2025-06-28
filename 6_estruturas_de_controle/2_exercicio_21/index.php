@@ -10,7 +10,7 @@ if ($a > $b) {
 $nomeA = "Matheus";
 $nomeB = "Pedro";
 
-if ($nomeA !== $nomeB) {
+if ($nomeA != $nomeB) {
   echo "Os nomes são diferentes . <br>";
 }
 
