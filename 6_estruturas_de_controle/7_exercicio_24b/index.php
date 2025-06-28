@@ -7,5 +7,5 @@ $msg2 = "Você está dentro do peso ideal. <br>";
 if ($peso > 80) {
   echo "Você está acima do peso ideal. <br>";
 } else {
-  echo "Você estád dentro do peso ideal. <br>";
+  echo "Você está dentro do peso ideal. <br>";
 }
