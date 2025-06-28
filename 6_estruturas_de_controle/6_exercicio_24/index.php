@@ -1,35 +1,30 @@
 <?php
 
-  $a = 12;
-  $b = "Roda";
-  $c = [];
+$nome = "Fabrício";
+$idade = 24;
+$altura = 1.80;
+$casado = false;
 
-  if(is_int($a)) {
+if (is_int($nome)) {
+  echo "O nome é um dado do tipo inteiro. <br>";
+} else {
+  echo "O nome não é um tpo de dado inteiro. <br>";
+}
 
-    echo "É um inteiro 1 <br>";
+if (is_int($idade)) {
+  echo "A idade é um tipo de dado inteiro. <br>";
+} else {
+  echo "A idade não é um tipo de dado inteiro. <br>";
+}
 
-  } else {
+if (is_int($altura)) {
+  echo "É um inteiro. <br>";
+} else {
+  echo "A altura não é um tipo de dado inteiro. <br>";
+}
 
-    echo "Não é um inteiro 1 <br>";
-
-  }
-
-  if(is_int($b)) {
-
-    echo "É um inteiro 2 <br>";
-
-  } else {
-
-    echo "Não é um inteiro 2 <br>";
-
-  }
-
-  if(is_int($c)) {
-
-    echo "É um inteiro 3 <br>";
-
-  } else {
-
-    echo "Não é um inteiro 3 <br>";
-
-  }
+if (is_int($casado)) {
+  echo "O estado civil é um tipo de dado inteiro. <br>";
+} else {
+  echo "O estado civil não é um tipo de dado inteiro. <br>";
+}
