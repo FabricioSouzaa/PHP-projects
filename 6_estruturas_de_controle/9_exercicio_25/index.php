@@ -1,66 +1,24 @@
 <?php
 
-  $a = 12;
-  $b = 89;
-  $c = "teste";
+$number1 = 100;
+$number2 = 2;
+$name = "Fabrício";
 
-  if(is_int($a) || is_float($a)) {
+if(is_int($number1)) {
+  $vezesDois = $number1 * $number2;
 
-    $multi = $a * 2;
-
-    if($multi > 100) {
-
-      echo "O número é maior que 100 <br>";
-
-    } else {
-
-      echo "O número não é maior que 100 <br>";
-
-    }
-
-  } else {
-
-    echo "Não é um número <br>";
-
+  if($vezesDois >= 100) {
+    echo "O número é maior ou igual a 100<br>";
   }
+}
 
-  if(is_int($b) || is_float($b)) {
 
-    $multi = $b * 2;
+if(is_int($name)) {
+  $vezesDois = $name * $number2;
 
-    if($multi > 100) {
-
-      echo "O número é maior que 100 <br>";
-
-    } else {
-
-      echo "O número não é maior que 100 <br>";
-
-    }
-
-  } else {
-
-    echo "Não é um número <br>";
-
+  if($vezesDois >= 100) {
+    echo "O número é maior ou igual a 100<br>";
   }
-
-
-  if(is_int($c) || is_float($c)) {
-
-    $multi = $c * 2;
-
-    if($multi > 100) {
-
-      echo "O número é maior que 100 <br>";
-
-    } else {
-
-      echo "O número não é maior que 100 <br>";
-
-    }
-
-  } else {
-
-    echo "Não é um número <br>";
-
-  }
+} else {
+  echo "não é um número inteiro<br>";
+}
