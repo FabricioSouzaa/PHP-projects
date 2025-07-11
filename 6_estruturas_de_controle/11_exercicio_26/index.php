@@ -1,18 +1,30 @@
 <?php
 
-  $vel = 60;
-  $velMax = 40;
+$velocidade1 = 35;
+$velocidade2 = 40;
+$velocidade3 = 120;
+$velocidadeCorreta = 40;
 
-  if($vel < $velMax) {
+if ($velocidade1 < $velocidadeCorreta) {
+    echo "Velocidade 1 está abaixo do limite permitido.<br>";
+} else if ($velocidade1 > $velocidadeCorreta) {
+    echo "Velocidade 1 está acima do limite permitido.<br>";
+} else {
+    echo "Velocidade 1 está no limite permitido.<br>";
+}
 
-    echo "Parabéns, você está numa velocidade segura <br>";
+if ($velocidade2 < $velocidadeCorreta) {
+    echo "Velocidade 2 está abaixo do limite permitido.<br>";
+} else if ($velocidade2 > $velocidadeCorreta) {
+    echo "Velocidade 2 está acima do limite permitido.<br>";
+} else {
+    echo "Velocidade 2 está no limite permitido.<br>";
+}
 
-  } else if($vel == $velMax) {
-
-    echo "Cuidado! Você está no limite de velocidade <br>";
-
-  } else {
-
-    echo "Você foi multado, velocidade acima do permitido <br>";
-
-  }
+if ($velocidade3 < $velocidadeCorreta) {
+    echo "Velocidade 3 está abaixo do limite permitido.<br>";
+} else if ($velocidade3 > $velocidadeCorreta) {
+    echo "Velocidade 3 está acima do limite permitido.<br>";
+} else {
+    echo "Velocidade 3 está no limite permitido.<br>";
+}
