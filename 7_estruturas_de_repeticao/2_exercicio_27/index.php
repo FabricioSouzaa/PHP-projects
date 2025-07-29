@@ -1,13 +1,13 @@
 <?php
 
-$arr = [true, 10, "vermelho", 10.5, "azul", 20, "verde", 30, "amarelo", 40];
+$arr = ["Fabrício", 1, true, 1.5, "PHP", "Curso", 40, "Estruturas de Repetição", "Array", "Loop", "While", 4.5];
+$tamArr = count($arr); // Obtendo o tamanho do array
+$a = 0;
 
-$x = count($arr);
-$y = 0;
+while ($a < $tamArr) {
 
-while ($y <= $x) {
-  if (is_string($arr[$y])) {
-    echo $arr[$y] . "<br>";
+  if(is_string($arr[$a])) { // Verifica se o elemento é uma string
+    echo $arr[$a] . "<br>";
   }
-  $y++;
+  $a++; // Incrementa o contador
 }

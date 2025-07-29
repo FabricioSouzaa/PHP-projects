@@ -1,26 +1,35 @@
 <?php
 
-$x = 1;
+$x = 0;  // Definindo o contador.
 
-while ($x < 15) {
+while ($x < 10) {
+
+  // Corpo do loop
   echo $x . "<br>";
-  $x += 1;  // ou $x = $x + 1; -> ou $x++
+  $x = $x + 1; // ou $x++
+
 }
 
-echo "<br>";
+echo "continuando o código <br>";
 
-$y = 10;
+$y = 25; // Definindo o contador.
 
-while ($y <= 100) {
+while ($y > 10) {
+
   echo $y . "<br>";
-  $y += 10;
+  $y = $y - 1; // ou $y--
+
 }
 
-echo "<br>";
+echo "continuando o código 2<br>";
 
-$z = 10;
+$a = 25; // Definindo o contador.
 
-while ($z > 0) {
-  echo $z . "<br>";
-  $z -= 1;  // ou $z = $z - 1; -> ou $z--
+while ($a > 10) {
+
+  if($a % 2 != 0) { // Verifica se é impar, se sim, imprime
+    echo $a . "<br>";
+  }
+  $a--; // ou $a = $a - 1;
+
 }
