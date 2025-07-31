@@ -1,28 +1,17 @@
 <?php
 
-  $i = 1;
+$i = 0;
 
-  $c = "variável teste";
+while ($i <= 10) {
+  echo "Contador: $i <br>";
 
-  while($i <= 10) {
+  $j = 1;
 
-    echo "Loop externo $i <br>";
+  while ($j <= 5) {
+    echo "Valor de J é: $j <br>";
 
-    // segundo contador
-    $j = 1;
-
-    echo "$c <br>";
-
-    while($j <= 5) {
-
-      echo "Loop interno $j <br>";
-
-      echo "$c 2 <br>";
-
-      $j++;
-
-    }
-
-    $i++;
-
+    $j++;
   }
+
+  $i++;
+}

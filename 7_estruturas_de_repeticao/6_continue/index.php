@@ -1,29 +1,18 @@
 <?php
 
-  $a = 10;
+$a = 10;
 
-  while($a > 0) {
+while ($a > 0) {
 
-    if($a == 5 || $a == 7) {
+  if ($a === 5 || $a === 8) {
 
-      echo "Pulou a execução $a <br>";
-
-      $a--;
-
-      continue;
-
-    }
-
-    if($a == 2) {
-
-      echo "Terminando o loop break $a <br>";
-
-      break;
-
-    }
-
-    echo "Executando o loop $a <br>";
-
+    echo "O loop foi pulado no valor de $a <br>";
     $a--;
-
+    continue; // Pula o restante do loop quando $a é 5 ou 8
+    
   }
+
+  echo "contador geral: $a <br>";
+
+  $a--;
+}
