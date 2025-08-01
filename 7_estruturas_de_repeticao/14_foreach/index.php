@@ -1,12 +1,9 @@
 <?php
 
-  $nomes = ["Matheus", "João", "Pedro", "Maria"];
+$frutas = ["banana", "maça", "pessego", "uva"];
 
-  $a = 10;
+foreach($frutas as $fruit) {
 
-  foreach($nomes as $nome) {
-    echo "O nome do índice atual é $nome <br>";
-    if($nome == "Matheus") {
-      echo "Opa $a <br>";
-    }
-  }
+  echo "O nome do indice é: " . $fruit . "<br>";
+
+}

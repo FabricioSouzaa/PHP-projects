@@ -1,19 +1,19 @@
 <?php
 
-  $j = 0;
-  $nome = "Matheus";
+$nome = "Fabrício";
 
-  // CONTADOR; CONDIÇÃO; INCREMENTO/DECREMENTO
-  for($i = 0; $i < 10; $i++) {
+for ($i = 1; $i <= 15; $i++) {
 
-    if($i == 4) {
-      echo "$nome <br>";
-    }
+  echo "Numero: $i <br>";
 
-    if($i == 8) {
-      break;
-    }
-
-    echo "Testando for $i <br>";
-
+  if ($i == 4) {
+    echo "$nome no lugar do $i <br>";
+    continue;
   }
+
+  if ($i === 12) {
+    echo "$nome no lugar do $i <br>";
+    break;
+  }
+
+}

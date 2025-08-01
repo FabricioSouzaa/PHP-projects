@@ -1,18 +1,15 @@
 <?php
 
-  $arr = [];
+$arr = [];
 
-  for($i = 10; $i <= 20; $i++) {
-    array_push($arr, $i);
-  }
+for($a = 10; $a <= 20; $a++) {
+  array_push($arr, $a);
+}
 
-  print_r($arr);
-  echo "<br>";
+print_r($arr);
+echo "<br>";
 
-  for($i = 0; $i < count($arr); $i++) {
-
-    if($arr[$i] % 2 != 0) {
-      echo "Número ímpar: $arr[$i] <br>";
-    }
-
-  }
+for($a = 0; $a < count($arr); $a++)
+  if($arr[$a] % 2 != 0) {
+    echo "O numero é impar: $a <br>";
+}
