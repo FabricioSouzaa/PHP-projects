@@ -1,7 +1,7 @@
 <?php
 
-  $c = 5;
+  $c = 17;
 
 ?>
 
-<h1>Testando o include</h1>
+<h1>Testando o include com Fabrício</h1>
