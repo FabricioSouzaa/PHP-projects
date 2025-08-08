@@ -1,6 +1,6 @@
 <?php
 
-  $nome = "Matheus";
+  $nome = "Fabrício";
   $produtos = ["Carro", "Avião", "Lancha"];
 
 ?>
