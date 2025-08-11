@@ -1,7 +1,9 @@
 <?php
 
-  $arr = ["Teste", "Olá", "Balão", "Janela", "Planta"];
+$arr = ["Fabrício Souza", "Exercício 31 arrays", "Olá, tenho 25 anos"];
 
-  $teste = implode(", ", $arr);
+$teste = implode(", ", $arr);
 
-  echo $teste;
+echo $teste
+
+?>

@@ -1,18 +1,18 @@
 <?php
 
-  // definindo funcao
-  function soma() {
+function soma() {
 
-    $a = 5;
-    $b = 4;
+  $a = 10;
+  $b = 25;
 
-    echo $a + $b . "<br>";
+  echo $a + $b . "<br>";
 
-  }
+}
 
-  // chamando / invocando funcao
-  soma();
-  soma();
+// chamando/invocando funções
+soma();
 
-  // funcao do php
-  echo strtoupper("testando função");
+// função do PHP
+echo strtoupper("testando função do PHP");
+
+?>

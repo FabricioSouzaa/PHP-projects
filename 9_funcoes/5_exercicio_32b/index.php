@@ -1,12 +1,17 @@
 <?php
 
-  function fullName() {
+function nomeCompleto() {
 
-    $firstName = "Matheus";
-    $lastName = "Battisti";
+  $nome = "Fabrício";
+  $sobrenome = "Souza";
+  $fullName = $nome . " " . $sobrenome;
 
-    echo $firstName . " " . $lastName;
+  echo $fullName;
 
-  }
+ // echo $nome . " " . $sobrenome; -> caso não tenha a variável concatenada é possível imprimir dessa maneira.
 
-  fullName();
+}
+
+echo nomeCompleto();
+
+?>

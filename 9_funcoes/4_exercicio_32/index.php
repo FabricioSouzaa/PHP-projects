@@ -1,17 +1,15 @@
 <?php
 
-  // definição
-  function multiplicacao() {
+function multiplicacao() {
 
-    $x = 5;
-    $y = 4.12;
-    $z = 8;
+  $a = 10;
+  $b = 2;
+  $c = 100;
 
-    $resultado = $x * $y * $z;
+  echo $a * $b * $c . "<br>"; // ou criar uma variável com o total e exibi-lá.
 
-    echo $resultado . "<br>";
+}
 
-  }
+echo multiplicacao();
 
-  // invocação
-  multiplicacao();
+?>

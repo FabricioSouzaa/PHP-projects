@@ -1,7 +1,9 @@
 <?php
 
-  function teste() {
+function teste() {
 
-    // código
+  // bloco de código
 
-  }
+}
+
+?>
