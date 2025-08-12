@@ -1,36 +1,22 @@
 <?php
 
   $a = 10;
+  $b = 10.5;
 
-  $b = 15;
+  function escopoLocal($a) {
 
-  function testeEscopo() {
-
-    $a = 5;
-
+    $a = 100;
     global $b;
+    // $b++; -> é possível incrementar valor caso seja necessário.
 
-    static $c = 0;
-
-    $a++;
-
-    $b++;
-
-    $c++;
-
-    echo "ESCOPO LOCAL DE A: $a <br>";
-
-    echo "ESCOPO GLOBAL NA FUNÇÃO DE B: $b <br>";
-
-    echo "ESCOPO STATIC DE C: $c <br>";
+    echo "A variável A do escopo local é: $a <br>";
+    echo "A variável de escopo GLOBAL B, sendo usada no escopo local é: $b <br>";
 
   }
 
-  echo "ESCOPO GLOBAL DE A: $a <br>";
-  echo "ESCOPO GLOBAL DE B: $b <br>";
+  escopoLocal($a);
 
-  testeEscopo();
+  echo "A variável A do escopo global é: $a <br>";
+  echo "A variável B do escopo global é: $b <br>";
 
-  echo "ESCOPO GLOBAL DE B 2: $b <br>";
-
-  testeEscopo();
+?>

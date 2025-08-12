@@ -2,7 +2,7 @@
 
   $arr = [];
 
-  for($i = 0; $i <= 30; $i++) {
+  for($i = 0; $i <= 20; $i++) {
 
     array_push($arr, $i);
 
@@ -24,10 +24,13 @@
 
     }
 
-    return $arrayRetorno;
+  return $arrayRetorno;
 
   }
 
   $novoArray = arrayMaiorQueSete($arr);
 
   print_r($novoArray);
+
+
+?>
