@@ -1,19 +1,15 @@
 <?php
 
-  function numAoQuadrado($x) {
+  function number($n1) {
 
-    $resultado = $x ** 2;
-
-    return $resultado;
+    return pow($n1, 2);
 
   }
 
-  echo numAoQuadrado(2) . "<br>";
+  echo number(10) . "<br>";
 
-  $num = numAoQuadrado(4);
-  
-  echo $num . "<br>";
+  $result = number(100);
+  echo $result . "<br>";
 
-  $x = numAoQuadrado(123);
 
-  echo $x . "<br>";
+?>
