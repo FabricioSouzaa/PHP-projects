@@ -1,10 +1,11 @@
-<?php
+<?php 
 
-  function apresentarPessoa($nome, $idade, $genero) {
+function nomeIdade($nome, $idade) {
 
-    echo "Olá eu sou $genero $nome e tenho $idade anos <br>";
+echo "Olá, me chamo $nome e tenho $idade anos. <br>";
 
-  }
+}
 
-  apresentarPessoa("Matheus", 29, "o");
-  apresentarPessoa("Alexia", 24, "a");
+nomeIdade("Fabrício Souza", 25);
+
+?>
