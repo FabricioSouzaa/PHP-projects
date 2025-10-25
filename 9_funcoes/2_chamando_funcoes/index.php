@@ -2,17 +2,12 @@
 
 function soma() {
 
-  $a = 10;
-  $b = 25;
-
+  $a = 4;
+  $b = 10;
+  
   echo $a + $b . "<br>";
 
 }
 
-// chamando/invocando funções
+// chamando a função
 soma();
-
-// função do PHP
-echo strtoupper("testando função do PHP");
-
-?>
