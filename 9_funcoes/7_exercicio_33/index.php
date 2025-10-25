@@ -1,11 +1,12 @@
 <?php 
 
-function nomeIdade($nome, $idade) {
+function nameAge($nome, $idade) {
 
-echo "Olá, me chamo $nome e tenho $idade anos. <br>";
+    echo "Olá, meu nome é $nome e tenho $idade anos. <br>";
 
 }
 
-nomeIdade("Fabrício Souza", 25);
+nameAge("Fabrício", 25);
+nameAge("Yohanna", 23);
 
 ?>

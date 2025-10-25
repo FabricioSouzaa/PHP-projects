@@ -1,15 +1,16 @@
 <?php
 
-  function parOuImpar($number) {
+function validarImparPar($numero) {
 
-    if($number % 2 === 0 ) {
-      echo "O numero $number é par <br>";
-    } else {
-        echo "O numero $number é impar <br>";
-      }
-    }
+  if($numero % 2 == 0) {
+    echo "O numero $numero é par <br>";
+  } else {
+    echo "O numero $numero é impar <br>";
+  }
 
-  parOuImpar(20);
-  parOuImpar(33);
+}
+
+validarImparPar(10);
+validarImparPar(17);
 
 ?>
