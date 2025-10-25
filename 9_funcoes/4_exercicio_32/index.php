@@ -1,15 +1,17 @@
 <?php
 
-function multiplicacao() {
+  function numbers() {
 
-  $a = 10;
-  $b = 2;
-  $c = 100;
+    $a = 10;
+    $b = 20;
+    $c = 30;
 
-  echo $a * $b * $c . "<br>"; // ou criar uma variável com o total e exibi-lá.
+    $resultado = $a * $b * $c;
 
-}
+    echo $resultado;
 
-echo multiplicacao();
+  }
+
+  numbers();
 
 ?>
