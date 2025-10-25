@@ -11,3 +11,6 @@ function soma() {
 
 // chamando a função
 soma();
+
+// função PHP
+echo strtoupper("testando funçao");
