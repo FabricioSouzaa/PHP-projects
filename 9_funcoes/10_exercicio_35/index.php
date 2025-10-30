@@ -1,15 +1,25 @@
 <?php
 
-  function number($n1) {
+function number($n1) {
 
-    return pow($n1, 2);
+  return $n1 ** 2;
 
-  }
+}
 
-  echo number(10) . "<br>";
+$result = number(5);
 
-  $result = number(100);
-  echo $result . "<br>";
+echo $result . "<br>";
 
+// teste 2
+
+function number2($n2) {
+
+  return $n2 ** 2;
+
+}
+
+$result2 = number2(25);
+
+echo $result2 . "<br>";
 
 ?>

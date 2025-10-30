@@ -1,22 +1,18 @@
 <?php
 
-  $a = 10;
-  $b = 10.5;
+$a = 10;
 
-  function escopoLocal($a) {
+function escopoLocal() {
 
-    $a = 100;
-    global $b;
-    // $b++; -> é possível incrementar valor caso seja necessário.
+  $a = 1;
+  $a++;
 
-    echo "A variável A do escopo local é: $a <br>";
-    echo "A variável de escopo GLOBAL B, sendo usada no escopo local é: $b <br>";
+  echo "O Escopo local de A: $a <br>";
 
-  }
+}
 
-  escopoLocal($a);
+escopoLocal();
 
-  echo "A variável A do escopo global é: $a <br>";
-  echo "A variável B do escopo global é: $b <br>";
+echo "O Escopo global de A: $a <br>";
 
 ?>
