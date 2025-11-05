@@ -7,13 +7,4 @@
   }
 
   teste();
-  teste("asd");
-
-  function testando($b, $a = "x") {
-
-    echo "O valor de a é: $a e de b é: $b <br>";
-
-  }
-
-  testando("1");
-  testando("1", "2");
+  teste("Se inserir um valor, puxa corretamente"); // neste caso nao precisa do valor padrão/default

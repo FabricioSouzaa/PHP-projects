@@ -1,23 +1,21 @@
 <?php
 
-  $lista = ["Arroz", "Trigo", "Cerveja", "Sal", "Vinagre"];
+  $arrItens = ["rice", "beans", "beef", "beer"];
 
-  function listaParaString($arr) {
+  function supermarket($lista) {
 
-    $str = "Você levou estes itens do mercado: ";
+    $string = "Você levou estes itens do mercado: ";
 
-    for($i = 0; $i < count($arr); $i++) {
+    for($i = 0; $i < count($lista); $i++)
 
-      if($i + 1 == count($arr)) {
-        $str .= "$arr[$i].";
+      if($i + 1 == count($lista)) {
+        $string .= "$lista[$i].";
       } else {
-        $str .= "$arr[$i], ";
+        $string .= "$lista[$i], ";
       }
 
-    }
-
-    return $str;
+  return $string;
 
   }
 
-  echo listaParaString($lista);
+  echo supermarket($arrItens);

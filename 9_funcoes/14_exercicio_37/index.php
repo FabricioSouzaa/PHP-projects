@@ -1,13 +1,10 @@
 <?php
 
-  function defineCorCarro($cor = "Vermelha") {
+ function defineCorCarro($color = "Vermelha") {
 
-    return "A cor do carro é: $cor";
+  echo "A cor do carro é: $color <br>";
 
-  }
+ }
 
-  $carroVermelho = defineCorCarro();
-  echo $carroVermelho . "<br>";
-
-  $carroAzul = defineCorCarro("Azul");
-  echo $carroAzul . "<br>";
+ defineCorCarro();
+ defineCorCarro("Preto");
